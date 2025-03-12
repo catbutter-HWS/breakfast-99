@@ -20,6 +20,9 @@ export default function OrdersPage(){
                 <Button asChild>
                     <Link href="/orders/new">新增</Link>
                 </Button>
+                <table>
+                    
+                </table>
             </div>
 
         </div>
