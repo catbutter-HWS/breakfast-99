@@ -9,8 +9,6 @@ export default function DashboardPage(){
             <div className="p-4 bg-slate-700 rounded-lg shadow">未處理訂單:</div>
             <div className="p-4 bg-slate-700 rounded-lg shadow">庫存警告:</div>
         </div>
-        
-        
     </div>
     )  
     
