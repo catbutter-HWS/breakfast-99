@@ -37,7 +37,7 @@ function PageSidebar(){
                 <NavLink herf="/dashboard">總儀表頁面</NavLink>
                 <NavLink herf="/menu">菜單</NavLink>
                 <NavLink herf="/orders">訂單</NavLink>
-                <NavLink herf="/inventory">庫存管理</NavLink>
+                <NavLink herf="/Inventory">庫存管理</NavLink>
                 <NavLink herf="/">標準頁面</NavLink>
             
             </div>

@@ -19,7 +19,7 @@ const menuList = [
         name:"油條",
         price:"$30"
     }
-]
+];
 
 export default function MenuPage(){
 return(
