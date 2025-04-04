@@ -19,17 +19,21 @@ export default function blog(){
                     return(
                         <div key={post.id} className="p-4 shadow-md rounded-xl">
                             <div className="flex items-center gap-3 mb-2">
-                                <img src={user.avatar} 
-                                     alt={`User ${user.id}'s Avatar`} 
-                                     className="w-10 h-10 rounded-full"/>
-                                <Link href={`/blog/posts/${post.id}`}>
-                                    <span className="text-gray-800 hover:bg-yellow-400">
-                                        使用者： #{user.id}
-                                    </span>
-                                </Link>
-                                <Link href={`blog/posts/${post.id}`}>
-                                   <span className="text-gray-500 hover:bg-yellow-400">{`${post.title}`}</span>
-                                </Link>
+                                <div>
+                                    <img src={user.avatar} 
+                                         alt={`User ${user.id}'s Avatar`} 
+                                         className="w-10 h-10 rounded-full"/>
+                                    <Link href={`/blog/posts/${post.id}`}>
+                                        <span className="text-gray-800 hover:bg-yellow-400">
+                                            使用者： #{user.id}:{user.name}
+                                        </span>
+                                    </Link>
+                                    <Link href={`/blog/posts/${post.id}`}>
+                                        <span className="text-gray-500 hover:bg-yellow-400">
+                                            {`${post.title}`}
+                                        </span>
+                                    </Link>
+                                </div>            
                             </div>
                         </div>
                     )
